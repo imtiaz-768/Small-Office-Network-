@@ -45,7 +45,7 @@ Network: 192.168.40.0/25
 
 Default gateway: 192.168.40.1
 
-DNS server (optional): Configured per office setup
+DNS server: Configured per office setup
 
 DHCP Pool 2 – Delivery Dept
 
@@ -64,3 +64,18 @@ Desktop PCs
 Printers
 
 Wireless Access Points
+
+**5. Wireless Access Point Setup**
+
+A wireless AP was configured in each department to support mobile devices:
+
+SSID unique to each department
+
+Connected to switch via FastEthernet (Fa0/–)
+
+DHCP assigned IPs from router
+
+Devices (laptops & smartphones) connect via WPA2 security
+
+**6. Device Connectivity**
+All devices—PCs, printers, laptops, and smartphones—receive IP addresses automatically through DHCP and communicate across subnets using the router.
